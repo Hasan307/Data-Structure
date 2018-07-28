@@ -61,6 +61,7 @@ int main()
                 cout<<"\npress any key to finish the task \n";
                 getch();
                 system("cls");
+                goto g;
 
 
         }
@@ -92,6 +93,7 @@ int main()
                 cout<<"\npress any key to finish the task \n";
                 getch();
                 system("cls");
+                goto g;
         }
     else if(x==4)
     {
@@ -129,6 +131,7 @@ int main()
                 cout<<"\npress any key to finish the task \n";
                 getch();
                 system("cls");
+                goto g;
     }
     else if(x==5)
     {
@@ -184,6 +187,7 @@ int main()
                 cout<<"\npress any key to finish the task \n";
                 getch();
                 system("cls");
+                goto g;
     }
     else if(x==7)
     {
@@ -195,6 +199,7 @@ int main()
                 cout<<"\npress any key to finish the task \n";
                 getch();
                 system("cls");
+                goto g;
     }
     else if(x==0)
         cout<<"You Are successfuly Exited ";
