@@ -27,7 +27,7 @@ int main()
                 {
                     printf("%d  ", a[i]);
                 }
-                printf("press any key to finish the task \n");
+                printf("\npress any key to finish the task \n");
                 getch();
                 system("cls");
                 goto g;
@@ -54,7 +54,7 @@ int main()
             for (c = 0; c <= l; c++)
                 printf("%d\n", a[c]);
 
-                printf("press any key to finish the task \n");
+                printf("\npress any key to finish the task \n");
                 getch();
                 system("cls");
                 goto g;
@@ -86,7 +86,7 @@ int main()
     {
         printf("\n%d is not found in the array", Src);
     }
-                printf("press any key to finish the task \n");
+                printf("\npress any key to finish the task \n");
                 getch();
                 system("cls");
                 goto g;
@@ -124,7 +124,7 @@ int main()
         else
             printf("Element %d is not found in the array\n", element);
 
-                printf("press any key to finish the task \n");
+                printf("\npress any key to finish the task \n");
                 getch();
                 system("cls");
                 goto g;
@@ -153,7 +153,7 @@ int main()
                     for (i = 0; i <l; ++i)
                         printf("%d\n", a[i]);
 
-                printf("press any key to finish the task \n");
+                printf("\npress any key to finish the task \n");
                 getch();
                 system("cls");
                 goto g;
@@ -180,7 +180,7 @@ int main()
         {
             printf("%d\n", a[i]);
         }
-                printf("press any key to finish the task \n");
+                printf("\npress any key to finish the task \n");
                 getch();
                 system("cls");
                 goto g;
@@ -192,10 +192,21 @@ int main()
         printf("the memory adress of %d is = ",a[add-1]);
         printf("%d",&a[add-1]);
 
-                printf("press any key to finish the task \n");
+                printf("\npress any key to finish the task \n");
                 getch();
                 system("cls");
                 goto g;
+    }
+    else if(x==0)
+        printf("You Are successfuly Exited ");
+    else
+    {
+        printf("Please Enter The Correct Number ");
+                printf("\npress any key to try again \n");
+                getch();
+                system("cls");
+                goto g;
+
     }
 
     return 0;
